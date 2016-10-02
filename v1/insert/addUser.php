@@ -1,12 +1,19 @@
 <?php
 $method = "addUser";
+
+$app->Methods[$method]=array(
+    "name"=>"(string) Name of user",
+    "email"=>"(string) Email of user",
+    "phone"=>"(string) Phone of user",
+    "token"=>"(string) Access token key"
+);
+
 $app->post($apiVersionPath.'/'.$method, function () use ($app)
 {
 	$postData = $app->request->getJsonRawBody();
 
 	try
 	{
-
         $app->ValidateLib->validateParams(4, $postData)->validateToken();
 
         $guid = $app->CryptLib->guid(md5(serialize($postData)));

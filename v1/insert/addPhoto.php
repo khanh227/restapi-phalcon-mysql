@@ -1,5 +1,8 @@
 <?php
 $method = "addPhoto";
+
+$app->Methods[$method]=null;
+
 $app->get($apiVersionPath.'/'.$method, function () use ($app)
 {
 	$postData = $app->request->getJsonRawBody();

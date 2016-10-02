@@ -1,0 +1,232 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'apidoc', '-g' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'apidoc', null ]
+6 verbose cache add name=undefined spec="apidoc" args=["apidoc",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'apidoc',
+7 verbose parsed url   path: 'apidoc',
+7 verbose parsed url   href: 'apidoc' }
+8 silly lockFile b7224f5a-apidoc apidoc
+9 verbose lock apidoc /home/khanh/.npm/b7224f5a-apidoc.lock
+10 silly lockFile b7224f5a-apidoc apidoc
+11 silly lockFile b7224f5a-apidoc apidoc
+12 verbose addNamed [ 'apidoc', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile a3b73c7a-apidoc apidoc@
+15 verbose lock apidoc@ /home/khanh/.npm/a3b73c7a-apidoc.lock
+16 silly addNameRange { name: 'apidoc', range: '*', hasData: false }
+17 verbose request where is /apidoc
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 1beeff0095b66e78
+20 verbose url raw /apidoc
+21 verbose url resolving [ 'https://registry.npmjs.org/', './apidoc' ]
+22 verbose url resolved https://registry.npmjs.org/apidoc
+23 verbose request where is https://registry.npmjs.org/apidoc
+24 info trying registry request attempt 1 at 21:41:21
+25 http GET https://registry.npmjs.org/apidoc
+26 http 200 https://registry.npmjs.org/apidoc
+27 silly registry.get cb [ 200,
+27 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"AONIAW1BYKJOIPL09Z5B3O0F9"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'content-encoding': 'gzip',
+27 silly registry.get     'cache-control': 'max-age=300',
+27 silly registry.get     'content-length': '9331',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     date: 'Sat, 01 Oct 2016 14:41:22 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-hkg6824-HKG',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1475332882.263876,VS0,VE422',
+27 silly registry.get     vary: 'Accept-Encoding' } ]
+28 silly addNameRange number 2 { name: 'apidoc', range: '*', hasData: true }
+29 silly addNameRange versions [ 'apidoc',
+29 silly addNameRange   [ '0.1.5',
+29 silly addNameRange     '0.1.6',
+29 silly addNameRange     '0.1.7',
+29 silly addNameRange     '0.1.8',
+29 silly addNameRange     '0.1.9',
+29 silly addNameRange     '0.1.10',
+29 silly addNameRange     '0.1.11',
+29 silly addNameRange     '0.2.0',
+29 silly addNameRange     '0.2.1',
+29 silly addNameRange     '0.2.2',
+29 silly addNameRange     '0.2.3',
+29 silly addNameRange     '0.2.4',
+29 silly addNameRange     '0.2.5',
+29 silly addNameRange     '0.2.6',
+29 silly addNameRange     '0.2.7',
+29 silly addNameRange     '0.2.8',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '0.4.1',
+29 silly addNameRange     '0.4.2',
+29 silly addNameRange     '0.4.3',
+29 silly addNameRange     '0.4.4',
+29 silly addNameRange     '0.5.0',
+29 silly addNameRange     '0.5.1',
+29 silly addNameRange     '0.5.2',
+29 silly addNameRange     '0.6.0',
+29 silly addNameRange     '0.6.1',
+29 silly addNameRange     '0.6.2',
+29 silly addNameRange     '0.6.3',
+29 silly addNameRange     '0.6.4',
+29 silly addNameRange     '0.6.5',
+29 silly addNameRange     '0.7.0',
+29 silly addNameRange     '0.7.1',
+29 silly addNameRange     '0.7.2',
+29 silly addNameRange     '0.8.0',
+29 silly addNameRange     '0.8.1',
+29 silly addNameRange     '0.8.2',
+29 silly addNameRange     '0.9.0',
+29 silly addNameRange     '0.9.1',
+29 silly addNameRange     '0.10.0',
+29 silly addNameRange     '0.10.1',
+29 silly addNameRange     '0.11.0',
+29 silly addNameRange     '0.12.0',
+29 silly addNameRange     '0.12.1',
+29 silly addNameRange     '0.12.2',
+29 silly addNameRange     '0.12.3',
+29 silly addNameRange     '0.13.0',
+29 silly addNameRange     '0.13.1',
+29 silly addNameRange     '0.13.2',
+29 silly addNameRange     '0.14.0',
+29 silly addNameRange     '0.15.0',
+29 silly addNameRange     '0.15.1',
+29 silly addNameRange     '0.16.0',
+29 silly addNameRange     '0.16.1' ] ]
+30 verbose addNamed [ 'apidoc', '0.16.1' ]
+31 verbose addNamed [ '0.16.1', '0.16.1' ]
+32 silly lockFile db2fb1b0-apidoc-0-16-1 apidoc@0.16.1
+33 verbose lock apidoc@0.16.1 /home/khanh/.npm/db2fb1b0-apidoc-0-16-1.lock
+34 silly lockFile d67ee5ec-mjs-org-apidoc-apidoc-0-16-1-tgz https://registry.npmjs.org/apidoc/-/apidoc-0.16.1.tgz
+35 verbose lock https://registry.npmjs.org/apidoc/-/apidoc-0.16.1.tgz /home/khanh/.npm/d67ee5ec-mjs-org-apidoc-apidoc-0-16-1-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/apidoc/-/apidoc-0.16.1.tgz',
+36 verbose addRemoteTarball   '26a1cde4f2c4910936ad57adf41dbc83c246e5e9' ]
+37 info retry fetch attempt 1 at 21:41:22
+38 verbose fetch to= /tmp/npm-8365-0Av7ahvz/registry.npmjs.org/apidoc/-/apidoc-0.16.1.tgz
+39 http GET https://registry.npmjs.org/apidoc/-/apidoc-0.16.1.tgz
+40 http 200 https://registry.npmjs.org/apidoc/-/apidoc-0.16.1.tgz
+41 silly lockFile d67ee5ec-mjs-org-apidoc-apidoc-0-16-1-tgz https://registry.npmjs.org/apidoc/-/apidoc-0.16.1.tgz
+42 silly lockFile d67ee5ec-mjs-org-apidoc-apidoc-0-16-1-tgz https://registry.npmjs.org/apidoc/-/apidoc-0.16.1.tgz
+43 silly lockFile db2fb1b0-apidoc-0-16-1 apidoc@0.16.1
+44 silly lockFile db2fb1b0-apidoc-0-16-1 apidoc@0.16.1
+45 silly lockFile a3b73c7a-apidoc apidoc@
+46 silly lockFile a3b73c7a-apidoc apidoc@
+47 silly resolved [ { name: 'apidoc',
+47 silly resolved     version: '0.16.1',
+47 silly resolved     description: 'RESTful web API Documentation Generator',
+47 silly resolved     author: { name: 'Peter Rottmann', email: 'rottmann@inveris.de' },
+47 silly resolved     license:
+47 silly resolved      { type: 'MIT',
+47 silly resolved        url: 'https://github.com/apidoc/apidoc/blob/master/LICENSE' },
+47 silly resolved     preferGlobal: true,
+47 silly resolved     bin: { apidoc: 'bin/apidoc' },
+47 silly resolved     main: './lib/index.js',
+47 silly resolved     homepage: 'http://apidocjs.com',
+47 silly resolved     repository: { type: 'git', url: 'git+https://github.com/apidoc/apidoc.git' },
+47 silly resolved     bugs: { url: 'https://github.com/apidoc/apidoc/issues' },
+47 silly resolved     scripts:
+47 silly resolved      { test: 'npm run jshint && mocha test/',
+47 silly resolved        jshint: 'jshint lib/ test/',
+47 silly resolved        'build-example': 'bin/apidoc -i example/ -o tmp/',
+47 silly resolved        'check-updates': 'npm-check-updates' },
+47 silly resolved     keywords: [ 'api', 'apidoc', 'doc', 'documentation', 'rest', 'restful' ],
+47 silly resolved     engines: { node: '>= 0.10.0' },
+47 silly resolved     dependencies:
+47 silly resolved      { 'apidoc-core': '~0.7.1',
+47 silly resolved        'fs-extra': '~0.28.0',
+47 silly resolved        lodash: '~4.11.1',
+47 silly resolved        'markdown-it': '^6.0.1',
+47 silly resolved        nomnom: '~1.8.1',
+47 silly resolved        winston: '~2.2.0' },
+47 silly resolved     devDependencies:
+47 silly resolved      { 'apidoc-example': '*',
+47 silly resolved        jshint: '^2.9.2',
+47 silly resolved        mocha: '~2.4.5',
+47 silly resolved        'npm-check-updates': '^2.6.3',
+47 silly resolved        'path-to-regexp': '^1.2.1',
+47 silly resolved        semver: '^5.1.0',
+47 silly resolved        should: '~8.3.1',
+47 silly resolved        webfontloader: '^1.6.24' },
+47 silly resolved     jshintConfig:
+47 silly resolved      { camelcase: true,
+47 silly resolved        curly: false,
+47 silly resolved        eqeqeq: true,
+47 silly resolved        forin: true,
+47 silly resolved        latedef: false,
+47 silly resolved        newcap: true,
+47 silly resolved        undef: true,
+47 silly resolved        unused: true,
+47 silly resolved        trailing: true,
+47 silly resolved        node: true,
+47 silly resolved        browser: true,
+47 silly resolved        predef: [Object] },
+47 silly resolved     gitHead: 'e3eb4d19eb9d2080fd62c416ca786ad1d81705ad',
+47 silly resolved     _id: 'apidoc@0.16.1',
+47 silly resolved     _shasum: '26a1cde4f2c4910936ad57adf41dbc83c246e5e9',
+47 silly resolved     _from: 'apidoc@',
+47 silly resolved     _npmVersion: '2.14.20',
+47 silly resolved     _nodeVersion: '4.4.1',
+47 silly resolved     _npmUser: { name: 'apidoc', email: 'info@apidocjs.com' },
+47 silly resolved     maintainers: [ [Object] ],
+47 silly resolved     dist:
+47 silly resolved      { shasum: '26a1cde4f2c4910936ad57adf41dbc83c246e5e9',
+47 silly resolved        tarball: 'https://registry.npmjs.org/apidoc/-/apidoc-0.16.1.tgz' },
+47 silly resolved     _npmOperationalInternal:
+47 silly resolved      { host: 'packages-16-east.internal.npmjs.com',
+47 silly resolved        tmp: 'tmp/apidoc-0.16.1.tgz_1461315654620_0.9403925731312484' },
+47 silly resolved     directories: {},
+47 silly resolved     _resolved: 'https://registry.npmjs.org/apidoc/-/apidoc-0.16.1.tgz' } ]
+48 info install apidoc@0.16.1 into /usr/lib
+49 info installOne apidoc@0.16.1
+50 verbose lib/node_modules/apidoc unbuild
+51 verbose tar unpack /home/khanh/.npm/apidoc/0.16.1/package.tgz
+52 silly lockFile 11af71bf-tar-usr-lib-node-modules-apidoc tar:///usr/lib/node_modules/apidoc
+53 verbose lock tar:///usr/lib/node_modules/apidoc /home/khanh/.npm/11af71bf-tar-usr-lib-node-modules-apidoc.lock
+54 silly lockFile f6a9640e-nh-npm-apidoc-0-16-1-package-tgz tar:///home/khanh/.npm/apidoc/0.16.1/package.tgz
+55 verbose lock tar:///home/khanh/.npm/apidoc/0.16.1/package.tgz /home/khanh/.npm/f6a9640e-nh-npm-apidoc-0-16-1-package-tgz.lock
+56 silly gunzTarPerm modes [ '775', '664' ]
+57 error Error: EACCES, mkdir '/usr/lib/node_modules/apidoc'
+57 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/apidoc']
+57 error   errno: 3,
+57 error   code: 'EACCES',
+57 error   path: '/usr/lib/node_modules/apidoc',
+57 error   fstream_type: 'Directory',
+57 error   fstream_path: '/usr/lib/node_modules/apidoc',
+57 error   fstream_class: 'DirWriter',
+57 error   fstream_stack:
+57 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+57 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+57 error      'Object.oncomplete (fs.js:108:15)' ] }
+58 error Please try running this command again as root/Administrator.
+59 error System Linux 3.19.0-69-generic
+60 error command "/usr/bin/node" "/usr/bin/npm" "install" "apidoc" "-g"
+61 error cwd /usr/share/nginx/html/me/tutorial.localhost/tutorial.api
+62 error node -v v0.10.37
+63 error npm -v 1.4.28
+64 error path /usr/lib/node_modules/apidoc
+65 error fstream_path /usr/lib/node_modules/apidoc
+66 error fstream_type Directory
+67 error fstream_class DirWriter
+68 error code EACCES
+69 error errno 3
+70 error stack Error: EACCES, mkdir '/usr/lib/node_modules/apidoc'
+71 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+71 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+71 error fstream_stack Object.oncomplete (fs.js:108:15)
+72 verbose exit [ 3, true ]

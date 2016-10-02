@@ -1,5 +1,10 @@
 <?php
 $method = "getUser";
+
+$app->Methods[$method]=array(
+    "name"=>"(string) Name of user",
+);
+
 $app->get($apiVersionPath.'/'.$method.'/{name}', function ($name) use ($app)
 {
 	$postData = $app->request->getJsonRawBody();

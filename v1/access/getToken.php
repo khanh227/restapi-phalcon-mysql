@@ -1,5 +1,10 @@
 <?php
 $method = "getToken";
+
+$app->Methods[$method]=array(
+    "email"=>"(string) Email of user",
+);
+
 $app->post($apiVersionPath.'/'.$method, function () use ($app)
 {
 	$postData = $app->request->getJsonRawBody();

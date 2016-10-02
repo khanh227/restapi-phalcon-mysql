@@ -1,14 +1,14 @@
 <?php
-// phpinfo();exit;
 defined('APP_PATH') || define('APP_PATH', realpath('.'));
 define("API_VERSION","v1");
 
 use \Phalcon\Http\Response;
 
 try {
-	define('APP_DEBUG', true);
-	$config = include APP_PATH . "/config/config.php";
-	include APP_PATH . "/config/message.php";
+	define('APP_DEBUG', false);
+	define('DEPLOY', "development");
+	$config = include APP_PATH . "/config/".DEPLOY."/config.php";
+	include APP_PATH . "/config/".DEPLOY."/message.php";
 
 	$loader = new \Phalcon\Loader();
 

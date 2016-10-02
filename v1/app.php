@@ -1,7 +1,8 @@
 <?php
-
+$app->Methods = [];
 foreach (glob("v1/*/*.php") as $filename)
 {
+	$app->Methods[basename($filename, ".php")]="";
     include str_replace("v1/", "", $filename);
 }
 

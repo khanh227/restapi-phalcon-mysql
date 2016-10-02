@@ -38,7 +38,7 @@ class ResponseLib
         header("Content-Type:text/json");
         $content = array(
                     "status"=>$this->status,
-                    "rpcode"=>$this->responseCode,
+                    "code"=>$this->responseCode,
                     "data"=>$this->data,
                     "mes"=>$this->message 
                 );
